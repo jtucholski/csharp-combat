@@ -5,7 +5,10 @@ namespace csharp_combat.Combatants
 {
     public class BubbaTheBruiser : Fighter
     {
-        public BubbaTheBruiser() : base(100, 0)
+        private const int StartingHealth = 100;
+        private const int DamageModifier = 0;
+
+        public BubbaTheBruiser() : base(StartingHealth, DamageModifier)
         {
         }
 
